@@ -1,0 +1,83 @@
+body {
+    background-color: #FFD0EC;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.todo {
+    width: 450px;
+    border: 3px solid;
+    background-color: #1F2544;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px 14px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.save {
+    background-color: rgba(22, 234, 22, 0.553);
+}
+
+.delete {
+    background-color: #D24545;
+}
+
+.edit {
+    background-color: transparent;
+}
+
+.container button {
+    background-color: rgba(22, 234, 22, 0.553);
+}
+
+input {
+    border: 1px solid;
+    border-color: #000;
+    padding: 10px 14px;
+}
+
+.container {
+    margin-top: 25px;
+    width: 470px;
+    display: flex;
+    gap: 10px;
+}
+
+.submit-inp {
+    flex-grow: 1;
+}
+
+.values {
+    background-color: #474F7A;
+    padding: 10px 14px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.values.completed {
+    opacity: 0.5;
+}
+
+.values span.value {
+    flex-grow: 1;
+    color: #fff;
+}
+
+.values .edit-inp {
+    flex-grow: 1;
+}
